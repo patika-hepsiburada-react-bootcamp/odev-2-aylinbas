@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+
+.keyboard {
+  min-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.red{
+  color: red;
+}
+.hide{
+  display: none;
+}
+
+.key{
+  margin: .5rem;
+}
+
+.letter{
+  width: 4rem;
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+  color: black;
+  margin: 1rem;
+}
+
+.lines{
+  width: 4rem;
+  border-bottom: 2px solid black;
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem; 
+}
